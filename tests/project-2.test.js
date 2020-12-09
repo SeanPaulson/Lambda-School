@@ -79,16 +79,16 @@ describe('Project 2', () => {
 
   describe('isInteger(num)', () => {
     it('should return true if num is 5', () => {
-      expect(isInteger(5)).toBe(true);
+      expect(isInteger(5)).toBe(1);
     });
     it('should return false if num is 0.5', () => {
-      expect(isInteger(0.5)).toBe(false);
+      expect(isInteger(0.5)).toBe(0);
     });
     it('should return true if num is -20', () => {
-      expect(isInteger(-20)).toBe(true);
+      expect(isInteger(-20)).toBe(1);
     });
     it('should return true for 0', () => {
-      expect(isInteger(0)).toBe(true);
+      expect(isInteger(0)).toBe(1);
     });
   });
 
